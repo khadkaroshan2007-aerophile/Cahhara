@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CAHHARA GRILL & STEEL UDHYOG</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  min-height:100vh;
+}
+
+/* MAIN CONTAINER */
+.container{
+  display:flex;
+  width:100%;
+  min-height:100vh;
+}
+
+/* COMMON CARD */
+.card{
+  width:50%;
+  min-height:100vh;
+  color:white;
+  text-align:center;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  padding:30px;
+}
+
+/* LEFT & RIGHT */
+.dad{ background:#075e54; }
+.mom{ background:#128c7e; }
+
+/* PROFILE IMAGE */
+.profile{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  border:5px solid white;
+  object-fit:cover;
+  margin-bottom:20px;
+}
+
+/* TEXT */
+h1{ margin-bottom:10px; }
+p{ font-size:18px; margin-bottom:10px; }
+
+/* BUTTONS */
+.buttons a{
+  display:inline-block;
+  margin:6px;
+  padding:12px 24px;
+  background:white;
+  color:black;
+  text-decoration:none;
+  border-radius:25px;
+  font-weight:bold;
+}
+
+/* QR */
+.qr{
+  width:160px;
+  margin-top:10px;
+  background:white;
+  padding:10px;
+  border-radius:10px;
+}
+
+/* CENTER TITLE */
+.title{
+  position:fixed;
+  top:10px;
+  width:100%;
+  text-align:center;
+  color:white;
+  font-weight:bold;
+  font-size:22px;
+}
+
+/* FOOTER */
+footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background:#000;
+  color:white;
+  text-align:center;
+  padding:8px;
+  font-size:14px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .container{
+    flex-direction:column;
+  }
+  .card{
+    width:100%;
+    min-height:100vh;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="title">
+  CAHHARA GRILL & STEEL UDHYOG
+</div>
+
+<div class="container">
+
+  <!-- DAD -->
+  <div class="card dad">
+    
+    <img src="https://image2url.com/r2/default/images/1770212357894-4ba5d84b-ad68-4d96-8c59-3ede6b4748e4.jpg" height ="250" class="profile">
+    <h1>Thaman Khadka</h1>
+    <p>📞 9779847836953</p>
+
+    <div class="buttons">
+      <a href="tel:9779847836953">📞 Call</a>
+      <a href="https://wa.me/9779847836953?text=Namaste%20malai%20gate%20banau%20paryo" target="_blank">
+        💬 WhatsApp
+      </a>
+    </div>
+
+    <p>Scan QR for WhatsApp</p>
+    <img class="qr"
+      src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/9779847836953">
+  </div>
+
+  <!-- MOM -->
+  <div class="card mom">
+    <img src="https://image2url.com/r2/default/images/1770212443309-a5ec1095-740b-411a-b659-72b3588e3ad7.jpg" height ="250"class="profile">
+    <h1>Gita Khadka</h1>
+    <p>📞 9779810936325</p>
+
+    <div class="buttons">
+      <a href="tel:9779810936325">📞 Call</a>
+      <a href="https://wa.me/9779810936325?text=Namaste%20malai%20grill%20ko%20rate%20janna%20cha" target="_blank">
+        💬 WhatsApp
+      </a>
+    </div>
+
+    <p>Scan QR for WhatsApp</p>
+    <img class="qr"
+      src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://wa.me/9779810936325">
+  </div>
+
+</div>
+
+<footer>
+<img src="https://image2url.com/r2/default/images/1770304991664-172d2594-5dc0-42d3-a2c7-f705593e9505.jpeg" height="110">
+<img src="https://image2url.com/r2/default/images/1770306085255-2e57eae8-c82a-4891-9432-84ddbe59a638.jpeg" width="100">
+<img src="https://image2url.com/r2/default/images/1770306206228-822222d1-095f-4617-8690-ca1cea254c19.jpeg" width="70">
+<img src="https://image2url.com/r2/default/images/1770306256771-448a6196-b331-49f0-9935-0a2adf702249.jpeg" height="110">
+<img src="https://image2url.com/r2/default/images/1770306294699-f8d56a33-a74d-432b-9dde-dea3d8427c31.jpeg" height="110">
+
+📍 Dang, Tulsipur, Nepal — Near Himal Academy
+</footer>
+
+</body>
+</html>
